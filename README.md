@@ -6,6 +6,8 @@ the Ambulance Service.Created this solution at VSSUT INNOBUZZ Hackathon 2020.
 # Features 
 
 1.Live Monitoring of patient.
+
 2.Automating centralized interaction.
+
 3.Volunteer onboarding
 
