@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "16939369891",
+    "firebase_url": "https://medexpress-78b40.firebaseio.com",
+    "project_id": "medexpress-78b40",
+    "storage_bucket": "medexpress-78b40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16939369891:android:a49aed54d86e14741a0616",
+        "android_client_info": {
+          "package_name": "com.example.medexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16939369891-e21ftpfbdo6gs77dhhgaiiudpi7olmig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medexpress",
+            "certificate_hash": "35798e6645be95b2f30438c7bf1b783048e5de5b"
+          }
+        },
+        {
+          "client_id": "16939369891-459lsllro7a94toms4h1074vesumacgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqfP9Iz3sI7Nm-IYlHNTnjcJWjWv1JUhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16939369891-459lsllro7a94toms4h1074vesumacgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16939369891:android:a1e6ab81b674e4201a0616",
+        "android_client_info": {
+          "package_name": "com.example.medexpress.ambulance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16939369891-jf3pi0ai43om8nss0ahsbv3jgngnin1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medexpress.ambulance",
+            "certificate_hash": "4636f2f8303ef93fb906865b128b89ca626a71fb"
+          }
+        },
+        {
+          "client_id": "16939369891-459lsllro7a94toms4h1074vesumacgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqfP9Iz3sI7Nm-IYlHNTnjcJWjWv1JUhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16939369891-459lsllro7a94toms4h1074vesumacgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

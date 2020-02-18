@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E9BFA"
+    tools:context=".JoinNow">
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:paddingStart="5dp"
+        android:hint="FULL NAME"
+        android:inputType="textPersonName"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/editText2"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:paddingStart="5dp"
+        android:hint="E-MAIL ADDRESS"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:ems="10"
+        android:paddingStart="5dp"
+        android:hint="PHONE NUMBER"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="328dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="30dp"
+        android:background="#fff"
+        android:ems="10"
+        android:paddingStart="5dp"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@id/editText3"
+        app:layout_constraintBottom_toTopOf="@id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="316dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="20dp"
+        android:text="By clicking Join now, you agree to DoItTogether User Agreement, Privacy Policy and Cookie Policy. You may get Text Notifications.                                                                     Learn More. "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        app:layout_constraintTop_toBottomOf="@id/editText4"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="214dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="10dp"
+
+        android:text="Join   Now"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:background="#2E9BFA"
+        android:text="Already have an account? Sign In"
+        android:textColor="#fff"
+        app:layout_constraintTop_toBottomOf="@id/button3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

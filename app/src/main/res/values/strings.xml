@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MedExpressAmbulance</string>
+    <string name="title_activity_work">Records</string>
+    <string name="title_home">Past Records</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Current Request</string>
+</resources>
